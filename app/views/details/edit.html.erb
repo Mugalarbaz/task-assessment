@@ -1,0 +1,6 @@
+<h1>Edit Detail</h1>
+
+<%= render 'form', person: @person, detail: @detail %>
+
+<%= link_to 'Show', [@person, @detail] %> |
+<%= link_to 'Back', person_details_path(@person) %>
